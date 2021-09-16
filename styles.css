@@ -1,0 +1,13 @@
+--selectedColor-- {
+    color: blue;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    max-height: 3em;
+    font-size: 3em;
+    font-family: 'Cabin Sketch', cursive;
+    justify-content: center;
+    align-items: center;
+}
