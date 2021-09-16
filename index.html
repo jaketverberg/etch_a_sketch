@@ -16,33 +16,29 @@
     <title>Etch-a-sketch</title>
 </head>
 
-<header>
-    <h1>Etch-a-sketch</h1>
-</header>
 
 <body>
 
-    <leftSideContainer>
+    <header>
+        <h1>Etch-a-sketch</h1>
+    </header>
 
-        <colorSelecter>
-            color selector
-        </colorSelecter>
+    <centerContainter>
+        <leftSideContainer>
 
-        <gridSizeSelector>
-            grid selector
-        </gridSizeSelector>
+            <input type="color" id="colorpicker" value="#333333">
+            <p>Number X Number</p>
+            <input id="sizeSlider" type="range" value="16" min="1" max="100">
 
-    </leftSideContainer>
+        </leftSideContainer>
 
 
-    <rightSideContainer>
+        <rightSideContainer>
 
-        <etchASketchContainer>
-            Etch a sketch
-        </etchASketchContainer>
+            <etchASketchContainer id = "grid" class = "grid"></etchASketchContainer>
 
-    </rightSideContainer>
-
+        </rightSideContainer>
+    </centerContainter>
 
 </body>
 
