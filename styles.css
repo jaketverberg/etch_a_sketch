@@ -20,12 +20,6 @@ header {
     margin-top: 20px;
 }
 
-@media (max-width: 400px) {
-    header {
-        font-size: 1.5em;
-    }
-}
-
 centerContainter {
     display:flex;
     justify-content: space-evenly;
@@ -80,7 +74,7 @@ leftSideContainer {
 
   rightSideContainer {
     width: 500px;
-    min-height: 500px;
+    height: 500px;
 }
 
   etchASketchContainer {
@@ -111,3 +105,34 @@ leftSideContainer {
   button:hover {
     transform: scale(1.10);
   }
+
+  @media (max-width: 400px) {
+    header {
+        font-size: 1.5em;
+    }
+    centerContainter {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    rightSideContainer {
+        margin-top: 10px;
+        width: 100%;
+        bottom: 0;
+    }
+    input[type='color'] {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+      }
+      input[type='range'] {
+          width: 60%;
+      }
+      button {
+          width: 100px;
+          height: 40px;
+          margin-top: 10px;
+      }
+      p {
+          margin-top: 10px;
+      }
+}
