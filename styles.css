@@ -7,6 +7,11 @@
 html {
     margin: 0;
     background-color: var(--primary-background);
+    height: 100%;
+}
+
+body {
+    height: 100%;
 }
 
 header {
@@ -117,7 +122,7 @@ leftSideContainer {
     rightSideContainer {
         margin-top: 10px;
         width: 100%;
-        bottom: 0;
+        height: 25em;
     }
     input[type='color'] {
         width: 50px;
