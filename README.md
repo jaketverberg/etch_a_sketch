@@ -4,4 +4,4 @@ Query Selectors were a huge element of this project and helped me understand how
 
 Most challenging for me to understand is having an execution function for every time something passes through it, such as "function changeMe (e) => e.target.style.backgroundColor = changed."
 
-Can be viewed through my <a href="[URL](https://codepen.io/jake-vern/pen/YzRgvMz)https://codepen.io/jake-vern/pen/YzRgvMz">Codepen</a>
+Can be viewed through my [CodePen]([https://link-url-here.org](https://codepen.io/jake-vern/pen/YzRgvMz)https://codepen.io/jake-vern/pen/YzRgvMz)
